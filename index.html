@@ -26,6 +26,10 @@
         <a class="nav-link disabled" href="#"><i class="fas fa-envelope"></i>  Mensajes</a>
       </li>
     </ul>
+    <div id="complements">
+      <div id="avatar"></div>
+      <button onclick="tweet()">Twittear</button>
+    </div>
   </nav>
   <div class="cover"></div>
   <div class="infoUser">
@@ -62,5 +66,15 @@
     </div>
     <div id="tweets"></div>
   </div>
+  <div id="modalTweet" class="noMostrar">
+    <div id="divTweet">
+      <p>Redactar un nuevo Tweet</p><div id="closeModal" onclick="closeModal()"><i class="fas fa-times"></i></div>
+      <div id="bodyTweet">
+        <div id="textTweet"><textarea></textarea></div>
+        <button>Twittear</button>
+      </div>
+    </div>
+  </div>
 </body>
+<script src="app.js"></script>
 </html>
