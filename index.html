@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav class="nav">
+  <nav class="nav-fixed">
     <ul class="nav">
       <li class="nav-item">
         <a class="nav-link disabled" href="#"><i class="fas fa-home"></i> Inicio</a>
@@ -26,9 +26,6 @@
         <a class="nav-link disabled" href="#"><i class="fas fa-envelope"></i>  Mensajes</a>
       </li>
     </ul>
-    <div class="float-right">
-      <a class="nav-link disabled" href="#"><i class="fas fa-envelope"></i>  Mensajes</a>
-    </div>
   </nav>
   <div class="cover"></div>
   <div class="infoUser">
@@ -52,6 +49,18 @@
       <p>Momentos</p>
       <span>0</span>
     </div>
+    <div class="editar">
+      <button id="editar">Editar perfil</button>
+    </div>
+  </div>
+  <div class="imgUser"></div>
+  <div class="main">
+    <div id="userName">
+      <h3>Harland Lohora</h3>
+      <p><i class="fas fa-at"></i>HarlandLohora</p>
+      <p><i class="fas fa-calendar-alt"></i> Se unió en abril de 2018</p>
+    </div>
+    <div id="tweets"></div>
   </div>
 </body>
 </html>

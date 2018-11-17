@@ -8,6 +8,17 @@
   background-color: #55acee;
 }
 
+.nav-fixed{
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav:nth-child(1){
+  margin-left: 11.5vw;
+}
+
 .infoUser{
 
 }
@@ -32,4 +43,65 @@
 
 .divInfoUser:nth-child(1){
   margin-left: 30vw;
+}
+
+/*Img User*/
+
+.imgUser{
+  position: absolute;
+  top : 15vh;
+  left: 12vw;
+  border: 4px #fff solid;
+  border-radius: 50%;
+  width: 30vh;
+  height: 30vh;
+  background-image: url('https://pbs.twimg.com/profile_images/994617627849838592/Ts_zXHIt_400x400.jpg');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.editar{
+  display: inline-block;
+  color:#eee;
+  position: relative;
+  top: -12px;
+  right: -80px;
+}
+
+#editar{
+  border: 1px black solid;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+/*Main*/
+.main{
+  background-color: #E6ECF0;
+  height: 80vh;
+}
+
+#userName{
+  width: 20vw;
+  margin-left: 9.5vw;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 45vh;
+}
+
+#userName p{
+  margin-bottom: 0;
+}
+
+
+#tweets{
+  display: inline-block;
+  width: 40vw;
+  height: 80vh;
+  background-color: #fff;
+  position: relative;
+  top : 10px;
+  left: 30vw;
 }
