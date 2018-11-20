@@ -24,6 +24,7 @@ function closeModal(){
 }
 
 function newTweet(){
+  console.log(document.getElementById('message').value);
   let tweets      = document.getElementById('tweets');
   let message     = document.getElementById('message').value;
   let tweet       = document.createElement('li');
